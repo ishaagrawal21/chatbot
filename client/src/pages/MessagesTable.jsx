@@ -136,9 +136,9 @@ export default function MessagesTable() {
             Clear Filters
           </Button>
 
-          <Button variant="contained" onClick={() => refetch()}>
+          {/* <Button variant="contained" onClick={() => refetch()}>
             Refresh
-          </Button>
+          </Button> */}
         </Stack>
 
         {isLoading ? (
